@@ -107,9 +107,9 @@ const { wait, simih, getBuffer, h2k, banner, generateMessageID, getGroupAdmins, 
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Farhan\n'
-            + 'ORG:Owner FXC7;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=628311800241:+62 831-1800-241\n'
+            + 'FN:Noobz🖤\n'
+            + 'ORG:Owner Noobz;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6285876154630:+62 857-5537-5996\n'
             + 'END:VCARD'
 
 function kyun(seconds){
