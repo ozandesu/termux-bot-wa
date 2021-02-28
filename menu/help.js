@@ -4,7 +4,7 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 	return `
 	
 ${a}Follow My Instagram${a}
-${instagram}
+https://instagram.com/noobz.sad.offc_?igshid=36xz8r3qphe1
 
 ${a}Free RestAPIs${a}
 https://rb.gy/vzcpnn
