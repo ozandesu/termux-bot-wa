@@ -3,10 +3,14 @@ const a = '```'
 const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal, groupName, premi, Simihh, Welcomee, ModeAnime, Nsfww, BadWordd, AntiLinkk, AntiVirtexx) => { 
 	return `
 	
+${a}Follow My Instagram${a}
+${instagram}
 
 ${a}Free RestAPIs${a}
 https://rb.gy/vzcpnn
 
+${a}My Youtube${a}
+${yt}
 
 ${a}UNTUK FITUR TERUPDATE SILAHKAN KETIK${a} *${prefix}infobot*
 
@@ -103,11 +107,11 @@ ${a}UNTUK FITUR TERUPDATE SILAHKAN KETIK${a} *${prefix}infobot*
 │➲ ${a}M. HADI FIRMANSYA${a}
 │➲ ${a}DELIA AULIA${a}
 │➲ ${a}KEVIN DAVID${a}
-│➲ ${a}MY TEAM FXC7 BOT${a}
+│➲ ${a}MY TEAM  ${a}
 │➲ ${a}PENYEDIA REST API${a}
 │➲ ${a}CONTENT CREATOR BOT WHATSAPP${a}
 ┬
-╰──────≽ *Created © FXC7*`
+╰──────≽ *Created © OZ*`
 }
 
 exports.help = help
@@ -202,7 +206,6 @@ const donasi = (name) => {
 	return `       
 ╭─≽「 *DONASI AGAR BOT TETAP ONLINE* 」
 ┴
-
 │✓ ${a}Pulsa: 085755375996${a}
 │ *15k Invite Bot Ke Grup*
 ┬
