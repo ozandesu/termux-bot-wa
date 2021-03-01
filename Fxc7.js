@@ -107,9 +107,9 @@ const { wait, simih, getBuffer, h2k, banner, generateMessageID, getGroupAdmins, 
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Noobz🖤\n'
-            + 'ORG:Owner Noobz;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285876154630:+62 857-5537-5996\n'
+            + 'FN:OZ🖤\n'
+            + 'ORG:Owner OZ;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=+62 857-5537-5996\n'
             + 'END:VCARD'
 
 function kyun(seconds){
@@ -140,7 +140,7 @@ return '```' + string + '```'
 }
 
 function addMetadata(packname, author) {
-				if (!packname) packname = 'termux-bot-wa'; if (!author) author = ' Fxc7';
+				if (!packname) packname = 'termux-bot-wa'; if (!author) author = ' kawai';
 				author = author.replace(/[^a-zA-Z0-9]/g, '');
 				let name = `${author}_${packname}`
 
@@ -276,7 +276,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i.ibb.co/Gp4H47k/7dba54f7e250.jpg'
 				}
-				teks = `Sayonara @${num.split('@')[0]} IRENE MISS YOU:D`
+				teks = `Sayonara @${num.split('@')[0]}  engheningkan cipta, dimulai :v`
 				let buff = await getBuffer(ppimg)
 				frhan.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -370,8 +370,8 @@ async function starts() {
 			const isUser = user.includes(sender)
 			const isBanned = ban.includes(sender)
 			const isPrem = premium.includes(sender) || isOwner 
-			const FarhanGans = ["0@s.whatsapp.net"]
-			const FarhanGans2 = " ~ 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐅𝐚𝐫𝐡𝐚𝐧𝐗𝐂𝐨𝐝𝐞𝟳"
+			const FarhanGans = ["6285755375996@s.whatsapp.net"]
+			const FarhanGans2 = " ~ Ozan Desu "
 			const isUrl = (url) => {
 			    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
 		}
@@ -678,7 +678,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 					for (let Y of res.data) {
 						teks += `\n*「 _BRAINLY_ 」*\n\n*➸ Pertanyaan:* ${Y.pertanyaan}\n\n*➸ Jawaban:* ${Y.jawaban[0].text}\n❉───────────────────────❉\n`
 					}
-					costum(teks, text, FarhanGans, `Ciee Cari Jawaban Yaa😂\nFollow IG: @_farhan_xcode7`)
+					costum(teks, text, FarhanGans, `Ciee Cari Jawaban Yaa😂`)
 					console.log(res)
 					})
 					await limitAdd(sender)
@@ -1236,7 +1236,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 			break 
 				case 'owner':
 				frhan.sendMessage(from, {displayname: "jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-				reply('wa.me/628311800241')
+				reply('wa.me/6285755375996')
 				break
 				
 			case 'fitnah':
@@ -3143,7 +3143,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 						teks += `╠➥ @${mem.jid.split('@')[0]} wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`╔═══✪ Tag By *${pushname2}* ✪══`+ teks +'╚═══〘 FXC7 BOT 〙═══', members_id, true)
+					mentions(`╔═══✪ Tag By *${pushname2}* ✪══`+ teks +'╚═══〘 Kawai BOT 〙═══', members_id, true)
 					break
 			    case 'mentionall':
 			    if (isBanned) return reply(mess.only.benned)    
@@ -3157,7 +3157,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`╔══〘  *${body.slice(12)}*  〙✪══`+teks+'╚═〘 FXC7 BOT 〙', members_id, true)
+					mentions(`╔══〘  *${body.slice(12)}*  〙✪══`+teks+'╚═〘 kawai BOT 〙', members_id, true)
 					break
 			    case 'kbbi':
 			    try {
