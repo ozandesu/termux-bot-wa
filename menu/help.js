@@ -3,14 +3,7 @@ const a = '```'
 const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal, groupName, premi, Simihh, Welcomee, ModeAnime, Nsfww, BadWordd, AntiLinkk, AntiVirtexx) => { 
 	return `
 	
-${a}Follow My Instagram${a}
-https://instagram.com/noobz.sad.offc_?igshid=36xz8r3qphe1
 
-${a}Free RestAPIs${a}
-https://rb.gy/vzcpnn
-
-${a}My Youtube${a}
-${yt}
 
 ${a}UNTUK FITUR TERUPDATE SILAHKAN KETIK${a} *${prefix}infobot*
 
@@ -111,7 +104,7 @@ ${a}UNTUK FITUR TERUPDATE SILAHKAN KETIK${a} *${prefix}infobot*
 │➲ ${a}PENYEDIA REST API${a}
 │➲ ${a}CONTENT CREATOR BOT WHATSAPP${a}
 ┬
-╰──────≽ *Created © FXC7*`
+╰──────≽ *Created © OZ
 }
 
 exports.help = help
@@ -206,13 +199,10 @@ const donasi = (name) => {
 	return `       
 ╭─≽「 *DONASI AGAR BOT TETAP ONLINE* 」
 ┴
-│✓ *Trakteer: https://trakteer.id/FarhanXCo*
-│✓ *Saweria: https://saweria.co/FarhanXCo*
-│
-│✓ ${a}Pulsa: 08311800241${a}
+│✓ ${a}Pulsa: 085755375996${a}
 │ *15k Invite Bot Ke Grup selama 1 bulan*
 │
-│✓ ${a}OVO: 08311800241${a}
+│✓ ${a}OVO: 085755375996${a}
 │ *10k Invite Bot Ke Group Selama 1 Bulan*
 ┬
 ╰─────≽「 *BY ${name}* 」
