@@ -1,8 +1,11 @@
 // menu fitur bot
 const a = '```'
-const help = (prefix, name, pushname2, user, limitt, uptime, jam, tanggal, groupName, premi, Simihh, Welcomee, ModeAnime, Nsfww, BadWordd, AntiLinkk, AntiVirtexx) => 
+const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal, groupName, premi, Simihh, Welcomee, ModeAnime, Nsfww, BadWordd, AntiLinkk, AntiVirtexx) => { 
 	return `
 	
+
+${a}Free RestAPIs${a}
+https://rb.gy/vzcpnn
 
 
 ${a}UNTUK FITUR TERUPDATE SILAHKAN KETIK${a} *${prefix}infobot*
@@ -104,7 +107,7 @@ ${a}UNTUK FITUR TERUPDATE SILAHKAN KETIK${a} *${prefix}infobot*
 │➲ ${a}PENYEDIA REST API${a}
 │➲ ${a}CONTENT CREATOR BOT WHATSAPP${a}
 ┬
-╰──────≽ *Created © OZ
+╰──────≽ *Created © FXC7*`
 }
 
 exports.help = help
@@ -199,11 +202,9 @@ const donasi = (name) => {
 	return `       
 ╭─≽「 *DONASI AGAR BOT TETAP ONLINE* 」
 ┴
+
 │✓ ${a}Pulsa: 085755375996${a}
-│ *15k Invite Bot Ke Grup selama 1 bulan*
-│
-│✓ ${a}OVO: 085755375996${a}
-│ *10k Invite Bot Ke Group Selama 1 Bulan*
+│ *15k Invite Bot Ke Grup*
 ┬
 ╰─────≽「 *BY ${name}* 」
 
