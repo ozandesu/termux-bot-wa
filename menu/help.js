@@ -3,7 +3,7 @@ const a = '```'
 const help = (prefix, instagram, name, pushname2, user, limitt, uptime, jam, tanggal, groupName, premi, Simihh, Welcomee, ModeAnime, Nsfww, BadWordd, AntiLinkk, AntiVirtexx) => { 
 	return `
 	
-${a}Instagram${a}
+${a}Instagram Team${a}
 ${instagram}
 
 
