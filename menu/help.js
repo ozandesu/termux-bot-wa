@@ -2,14 +2,12 @@
 const a = '```'
 const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal, groupName, premi, Simihh, Welcomee, ModeAnime, Nsfww, BadWordd, AntiLinkk, AntiVirtexx) => { 
 	return `
-	
 ${a}Instagram Team${a}
 ${instagram}
 
-
 ${a}UNTUK FITUR TERUPDATE SILAHKAN KETIK${a} *${prefix}infobot*
 
-╭─────≽「 *REGULATION ${name}* 」
+╭─────≽「 *${name}* 」
 ┴
 ┣⊱>  ${a}NAMA USER:${a} *${pushname2}*
 ┣⊱>  ${a}CEK PREMIUM:${a} ${premi}
